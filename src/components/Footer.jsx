@@ -60,12 +60,12 @@ function Footer() {
                 </a>
               </p>
               <p>
-                <a href="/category/iphones" className="text-reset">
+                <a href="/menu" className="text-reset">
                   Breakfast
                 </a>
               </p>
               <p>
-                <a href="/category/imac" className="text-reset">
+                <a href="/menu" className="text-reset">
                   Drinks
                 </a>
               </p>
@@ -74,17 +74,17 @@ function Footer() {
             <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
               <p>
-                <a href="/cart" className="text-reset">
+                <a href="/" className="text-reset">
                   Home
                 </a>
               </p>
               <p>
-                <a href="/orders" className="text-reset">
+                <a href="/" className="text-reset">
                   About
                 </a>
               </p>
               <p>
-                <a href="/category/all" className="text-reset">
+                <a href="/cart" className="text-reset">
                   Cart
                 </a>
               </p>
