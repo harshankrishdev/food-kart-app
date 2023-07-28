@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "ClashDisplay-Regular";
+    src: url("./assets/fonts/ClashDisplay-Regular.woff2"), format("woff2");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "ClashDisplay-Medium";
+    src: url("./assets/fonts/ClashDisplay-Medium.woff2"), format("woff2");
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "ClashDisplay-Bold";
+    src: url("./assets/fonts/ClashDisplay-Bold.woff2"), format("woff2");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+  }
+}
+
+.line-clamp-4 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  max-height: 109px;
+  line-height: 1.26;
+}
+
+p.text-lg {
+  color: white;
+  padding-top: 20px;
+}
+.text-4xl {
+  color: white;
+}
+
+h2.text-white {
+  padding-top: 50px;
+}
+
+.md\:w-1\/3 {
+  margin-left: 10rem;
+}
+
+.container {
+  margin-top: 50px;
+}
+.container h1 {
+  text-align: center;
+}
+
+.w-5 {
+  width: 100%;
+}
+.h-5 {
+  height: auto;
+}
+.border-bottom {
+  border-bottom: #ffc107 !important;
+}
+.bg-white {
+  padding-top: 2px;
+}
