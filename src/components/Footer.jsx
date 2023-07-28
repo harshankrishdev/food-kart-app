@@ -55,18 +55,18 @@ function Footer() {
             <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-6">MENU</h6>
               <p>
-                <a href="/category/iwatch" className="text-reset">
-                  iWatch
+                <a href="/menu" className="text-reset">
+                  Dinner
                 </a>
               </p>
               <p>
                 <a href="/category/iphones" className="text-reset">
-                  iPhones
+                  Breakfast
                 </a>
               </p>
               <p>
                 <a href="/category/imac" className="text-reset">
-                  iMac
+                  Drinks
                 </a>
               </p>
             </MDBCol>
