@@ -33,6 +33,7 @@ const PaymentForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    navigate("/payment-success");
 
     if (!stripe || !elements || !cart?.length || !address) {
       return;
