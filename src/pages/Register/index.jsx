@@ -25,6 +25,7 @@ const Register = () => {
           response._tokenResponse.refreshToken
         );
         window.dispatchEvent(new Event("storage"));
+        navigate("/");
       })
       .catch((error) => {
         if (error.code === "auth/email-already-in-use") {
