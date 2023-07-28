@@ -1,0 +1,42 @@
+.category-tile {
+  height: 59px;
+  background-size: cover;
+  background-position: center;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border-radius: 250px;
+  background-color: #ffbe0b;
+}
+
+.card {
+  border: none !important;
+  width: 15rem !important;
+}
+img.card-img-top.product-preview-img {
+  border-radius: 10px;
+}
+
+.category-tile:hover {
+  transform: scale(1.05);
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.container {
+  align-items: center;
+}
+
+.list {
+  margin-left: 16rem;
+}
