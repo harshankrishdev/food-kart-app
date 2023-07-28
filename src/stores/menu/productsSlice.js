@@ -29,7 +29,7 @@ export const fetchProducts = createAsyncThunk(
   "products/fetchProducts",
   async () => {
     const response = await fetch(
-      "http://localhost:5000/api/products-by-categories"
+      "https://fine-plum-hippopotamus-coat.cyclic.app/api/products-by-categories"
     );
     const data = await response.json();
     return data;

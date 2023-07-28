@@ -41,7 +41,7 @@ const PaymentForm = () => {
     setLoading(true);
     try {
       const { error: backeEndError, clientSecret } = await fetch(
-        "http://localhost:5000/create-payment-intent",
+        "https://fine-plum-hippopotamus-coat.cyclic.app/create-payment-intent",
         {
           method: "POST",
           headers: {

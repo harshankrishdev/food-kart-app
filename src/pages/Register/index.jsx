@@ -32,7 +32,7 @@ const Register = () => {
         }
       });
 
-    fetch("http://localhost:5000/api/create-user", {
+    fetch("https://fine-plum-hippopotamus-coat.cyclic.app/api/create-user", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

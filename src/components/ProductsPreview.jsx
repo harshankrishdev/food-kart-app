@@ -30,7 +30,7 @@ export const ProductsPreview = () => {
   };
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/products")
+    fetch("https://fine-plum-hippopotamus-coat.cyclic.app/api/products")
       .then((response) => response.json())
       .then((data) => setProducts(data?.data))
       .catch((e) => console.log(e));
