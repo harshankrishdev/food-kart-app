@@ -37,7 +37,7 @@ const PaymentForm = () => {
     if (!stripe || !elements || !cart?.length || !address) {
       return;
     }
-    navigate("/payment-success");
+
     setLoading(true);
     try {
       const { error: backeEndError, clientSecret } = await fetch(
