@@ -33,12 +33,11 @@ const PaymentForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    navigate("/payment-success");
 
     if (!stripe || !elements || !cart?.length || !address) {
       return;
     }
-
+    navigate("/payment-success");
     setLoading(true);
     try {
       const { error: backeEndError, clientSecret } = await fetch(
