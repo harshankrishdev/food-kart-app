@@ -38,5 +38,7 @@ img.card-img-top.product-preview-img {
 }
 
 .list {
-  margin-left: 16rem;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
 }

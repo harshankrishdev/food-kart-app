@@ -83,7 +83,34 @@ p li::before {
 }
 
 .p-24 {
-  padding: 6rem;
-  margin-top: -4rem;
-  margin-left: 6rem;
+  padding: 0;
+  padding-left: 10rem;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 6rem;
 }
+
+#about-us {
+  padding-right: 6rem;
+}
+
+/* @media (min-width: 768px) and (max-width: 991px) {
+  .about img {
+    background-image: none;
+  }
+} */
+
+/* Landscape phones and portrait tablets */
+/* @media (max-width: 767px) {
+  .flex {
+    background-image: none;
+  }
+}
+
+/* Portrait phones and smaller */
+/* @media (max-width: 480px) {
+  .flex {
+    background-image: none;
+    background: none;
+  }
+} */
